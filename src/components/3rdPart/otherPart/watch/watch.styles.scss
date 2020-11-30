@@ -1,0 +1,50 @@
+.watch {
+  background-color: white;
+  width: 23vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  .para {
+    position: relative;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-right: 10px;
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sp1 {
+      color: #00ba88;
+      font-size: 0.7em;
+      position: absolute;
+      margin-top: 4px;
+      margin-left: 2px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .sp2 {
+      position: absolute;
+      top: 55px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  .btn {
+    width: 85px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #5f2eea;
+    background-color: white;
+    color: #5f2eea;
+    font-size: large;
+    margin-top: 30px;
+    margin-left: 20px;
+    &:hover {
+      cursor: pointer;
+      outline: none;
+      background-color: #5f2eea;
+      color: white;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

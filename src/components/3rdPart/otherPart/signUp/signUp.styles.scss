@@ -1,0 +1,32 @@
+.signUp {
+  width: 23vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px;
+  .btn {
+    width: 145px;
+    height: 50px;
+    border-radius: 8px;
+    border: 2px solid #5f2eea;
+    background-color: white;
+    color: #5f2eea;
+    font-size: small;
+    font-weight: bolder;
+    font-family: "Poppins";
+    margin-top: 10px;
+    margin-left: 10px;
+    &:hover {
+      cursor: pointer;
+      outline: none;
+      background-color: #5f2eea;
+      color: white;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

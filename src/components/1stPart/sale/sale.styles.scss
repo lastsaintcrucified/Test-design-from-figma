@@ -1,0 +1,40 @@
+.sale {
+  width: 50%;
+  background-color: white;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 7px;
+  .para {
+    width: 40%;
+    p {
+      font-family: sans-serif;
+      font-size: larger;
+    }
+    .btn {
+      width: 120px;
+      height: 40px;
+      border-radius: 20px;
+      border: 1px solid #d8dae9;
+      background-color: white;
+      color: #5f2eea;
+      &:hover {
+        cursor: pointer;
+        outline: none;
+        background-color: #8762ef;
+        color: white;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .pic {
+    width: 45%;
+    background-image: url("../../../resources/Olive\ Leaves.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

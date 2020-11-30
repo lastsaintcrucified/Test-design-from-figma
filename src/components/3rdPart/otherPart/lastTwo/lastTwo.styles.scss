@@ -1,0 +1,75 @@
+.lastTwo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  .leftD {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightD {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25px;
+    width: 25vw;
+    height: 62vh;
+    border-radius: 10px;
+    background-color: white;
+    .img {
+      background-image: url("../../../../resources/Blue Cone.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 50%;
+      width: 100%;
+      border-radius: 10px 10px 0px 0px;
+    }
+    h2 {
+      padding-left: 20px;
+      font-weight: lighter;
+      position: relative;
+      margin-top: -60px;
+      span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.6em;
+        color: grey;
+        position: absolute;
+      }
+    }
+    .lastDiv {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-bottom: 25px;
+      .calc {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        .pm {
+          height: 25px;
+          width: 25px;
+          border-radius: 50%;
+          background-color: #eff0f6;
+          padding-left: 7px;
+          border: none;
+          margin-left: 10px;
+          color: black;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .nmbr {
+          margin-left: 8px;
+        }
+      }
+      .dsrt {
+        position: absolute;
+        right: 10px;
+        background-color: #eff0f6;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 0.7em;
+      }
+    }
+  }
+}

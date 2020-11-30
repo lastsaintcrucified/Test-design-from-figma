@@ -1,0 +1,45 @@
+$sub-color: grey;
+$main-color: black;
+@mixin shrinkLabel {
+  top: 4px;
+  font-size: 10px;
+  color: $sub-color;
+}
+@mixin shrinkIcon {
+  top: 2px;
+  font-size: 18px;
+  color: $sub-color;
+}
+.form-input3 {
+  position: relative;
+  padding: 20px;
+  .icon3 {
+    position: absolute;
+    pointer-events: none;
+    left: 30px;
+    bottom: 33px;
+    font-size: 20px;
+    color: grey;
+    transition: 300ms ease all;
+  }
+
+  .email-input3 {
+    background-color: #eff0f6;
+    height: 45px;
+    width: 40vw;
+    border: none;
+    border-radius: 9px;
+    padding-left: 36px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-right: 10px;
+    &:focus {
+      outline: none;
+      border: 2px solid #5f2eea;
+    }
+    &:focus ~ .form-input-label2 {
+      @include shrinkLabel();
+    }
+  }
+}

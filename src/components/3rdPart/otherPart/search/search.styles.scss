@@ -1,0 +1,26 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 84%;
+  border-radius: 10px;
+  .btn {
+    width: 80px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid #d8dae9;
+    background-color: white;
+    color: #5f2eea;
+    font-size: large;
+    margin-top: 20px;
+    &:hover {
+      cursor: pointer;
+      outline: none;
+      background-color: #5f2eea;
+      color: white;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
